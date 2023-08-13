@@ -1,0 +1,429 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .pricing-area .row .col-lg-6 {
+        width: 48%;
+    }
+    
+    .pricing_blk ul li h3 {
+        font-size: var(--f24);
+    }
+
+    .video-container {
+        padding: 20px;
+    }
+    
+    .video-container span {
+        height: 100%;
+    }
+    
+    .video-container span:after {
+        height: calc(100% - 7px);
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f24 : 22px;
+        --f30 : 26px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f60 : 48px;
+      }
+      
+    .hero-text {
+        margin-bottom: 40px;
+        max-width: 430px;
+    }
+    
+    .hero-area .container {
+        max-width: 600px;
+    }
+    
+    .video_content ul {width: max-content;max-width: 1270px;padding: 10px 0;}
+    
+    .video_content {
+        overflow: auto;
+        padding: 35px 16px;
+    }
+
+.video_content .row {
+    flex-wrap: unset;
+    width: max-content;
+    max-width: 355px;
+}
+    
+    .Plutus_wrp ul {
+        flex-direction: column;
+    }
+    
+    .Plutus_blk.bordered {
+        padding: 25px 0;
+        margin: 20px 0;
+    }
+    
+    .Plutus_blk.bordered:after, .Plutus_blk.bordered:before {
+        width: 100%;
+        height: 1px;
+        top: 0;
+    }
+    
+    .Plutus_blk.bordered:before {
+        top: auto;
+        bottom: 0;
+    }
+    
+    .service_blk {
+        padding: 30px;
+        flex-direction: column;
+        height: 353px;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .service_blk i {
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: .9;
+    }
+    
+    .pricing-area .row .col-lg-6 {
+        width: 100%;
+    }
+    
+    .contact_img {
+        display: none;
+    }
+    .cta_text {
+        padding: 50px 0;
+    }
+    .video-container {
+        max-width: 330px;
+    }
+    
+    .video-container {
+        padding: 20px;
+    }
+    
+    .video-container span {
+        height: 100%;
+    }
+    
+    .video-container span:after {
+        height: calc(100% - 7px);
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f24: 20px;
+        --f30: 24px;
+        --f36: 30px;
+        --f40: 30px;
+        --f60: 42px;
+      }
+      
+    .hero-text {
+        margin-bottom: 40px;
+    }
+    
+    .hero-area .container {
+        max-width: 600px;
+    }
+    
+    .video_content ul {width: max-content;max-width: 910px;padding: 10px 0;}
+    
+    .video_content {
+        overflow: auto;
+    }
+    
+    .Plutus_wrp ul {
+        flex-direction: column;
+    }
+    
+    .Plutus_blk.bordered {
+        padding: 25px 0;
+        margin: 20px 0;
+    }
+    
+    .Plutus_blk.bordered:after, .Plutus_blk.bordered:before {
+        width: 100%;
+        height: 1px;
+        top: 0;
+    }
+    
+    .Plutus_blk.bordered:before {
+        top: auto;
+        bottom: 0;
+    }
+    
+    .service_blk {
+        padding: 30px;
+        flex-direction: column;
+        height: 353px;
+        justify-content: start;
+        align-items: start;
+        margin-top: 35px;
+    }
+
+section.service-area {
+    margin-bottom: 50px;
+}
+
+.Plutus-area {
+    margin-bottom: 30px;
+}
+    
+    .service_blk i {
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: .9;
+    }
+    
+    .pricing-area .row .col-lg-6 {
+        width: 100%;
+    }
+    
+    .contact_img {
+        display: none;
+    }
+    .cta_text {
+        padding: 50px 0;
+    }
+    .service-area .row .col-lg-6{
+        width: 100%;
+    }
+    .pricing_blk {
+        padding: 30px;
+        margin-bottom: 30px;
+        border-radius: 35px;
+    }
+    
+    .pricing_blk ul li {
+        width: 100%;
+    }
+    
+    .pricing_blk ul li h3 {
+    font-size: 21px;
+}
+.email_box {
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 20px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    top: 410px;
+    border-radius: 0;
+}
+
+.footer_nav ul {
+    flex-direction: column;
+}
+
+.contact_info {
+    text-align: center;
+    padding-bottom: 200px;
+    margin-top: 40px;
+}
+
+.footer_btm {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_btm p {
+    width: max-content;
+    font-size: 15px;
+}
+
+.footer_content {
+    padding: 0;
+    border-radius: 0;
+}
+
+footer.footer-area {
+    background: var(--darkColor);
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.footer_logo {
+    margin-bottom: 15px;
+}
+
+.email_box input {
+    padding: 18px 30px;
+}
+
+.contact_wrp {
+    padding: 40px 25px 10px;
+}
+
+.contact-form a {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.contact-area {
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+}
+
+.sec_title {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.pricing-area .sec_title {
+    margin-bottom: 50px;
+}
+
+.service-area .sec_title {
+    margin-bottom: 0;
+}
+
+.service-area .sec_title p br {
+    display: none;
+}
+
+.hero-area {
+    margin: 30px 0 25px;
+    position: relative;
+}
+
+.hero-img {
+    max-width: 350px;
+    position: absolute;
+    top: 256px;
+}
+
+.hero-text h1 {
+    padding-bottom: 350px;
+}
+
+.video_blk {
+    padding: 15px;
+}
+
+.video-area {
+    margin-bottom: 70px;
+}
+
+.working_acord .accordion-item button {
+    padding: 15px 20px;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.working_acord .accordion-item button h1 {
+    font-size: 30px;
+}
+
+.working_acord .accordion-item button:after {
+    scale: .7;
+}
+
+.working_acord .accordion-item .accordion-body {
+    padding-bottom: 23px;
+}
+
+.cta_wrp {
+    padding: 0 40px;
+}
+
+section.Plutus-area h1.tbg {
+    font-size: 28px;
+}
+
+.pricing-area .row {
+    gap: 0;
+}
+
+.pricing_blk > h3 {
+    font-size: 22px;
+}
+
+.pricing_blk ul li i {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+}
+
+.pricing_blk ul {
+    margin-bottom: 35px;
+}
+
+.pricing-area {
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+.input_blk textarea {
+    height: 120px;
+}
+
+
+.video_content {
+    overflow: auto;
+    padding: 35px 16px;
+}
+
+.video_content .row {flex-wrap: unset;width: max-content;max-width: 290px;gap: 0;padding: 0;}
+
+.video-container {
+    max-width: 268px;
+    height: 440px;
+}
+
+.video-container span video {
+    height: 100%;
+}
+
+.video-container {
+    padding: 20px;
+}
+
+.video-container span {
+    height: 100%;
+}
+
+.video-container span:after {
+    /* height: calc(100% - -1px); */
+}
+
+
+}
+
+
+
+
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
